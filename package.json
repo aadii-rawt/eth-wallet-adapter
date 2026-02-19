@@ -1,5 +1,5 @@
 {
-  "name": "tensor",
+  "name": "eth-wallet",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.2.0",
     "@tanstack/react-query": "^5.90.21",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "tailwindcss": "^4.2.0",
     "viem": "^2.46.2",
     "wagmi": "^3.5.0"
   },
